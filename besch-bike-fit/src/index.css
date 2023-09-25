@@ -5,6 +5,16 @@ header {
   background-color: beige;
 }
 
+.body {
+  width: 73%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
 .nav-btn {
   font-size: 2rem;
   border: none;
@@ -13,7 +23,9 @@ header {
 
 .schedule-btn {
   background-color: forestgreen;
-  color: tan;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
   padding: 20px;
   border-radius: 8px;
 }
@@ -30,6 +42,8 @@ button:hover {
 .motto {
   display: flex;
   flex-direction: column;
+  border: 1px solid black;
+  padding: 200px
 }
 
 .lineOne {
@@ -44,4 +58,15 @@ button:hover {
 .logo {
   height: 250px;
   padding-top: 0;
+}
+
+.hero-img {
+  height: 600px;
+  width: 400px;
+  background-color: gray;
+}
+
+.hero {
+  display: flex;
+
 }
