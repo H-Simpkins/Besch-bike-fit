@@ -7,11 +7,14 @@ function App() {
     <>
     <header>
       <img src={logo} className="logo" alt="logo" />
-      <button className="nav-btn">Home</button>
-      <button className="nav-btn">Why Bike Fit?</button>
-      <button className="nav-btn">Request Appointment</button>
-      <button className="nav-btn">Contact Us</button>
+      <div className="nav-bar">
+        <button className="nav-btn">Home</button>
+        <button className="nav-btn">About Us</button>
+        <button className="nav-btn">Services</button>
+        <button className="nav-btn">Contact Us</button>
+      </div>
     </header>
+    <div className="background-img">
     <body className="body">
       <div className="hero">
         <div className="motto">
@@ -19,9 +22,12 @@ function App() {
           <h1 className="lineTwo">Be ready for them.</h1>
           <button className="schedule-btn">Schedule Now!</button>
         </div>
-        <div className="hero-img"></div>
+        <div className="hero-img-container">
+          <img className="hero-img" src="https://images.unsplash.com/photo-1613444129079-b7862af832ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"/>
+        </div>
       </div>
     </body>
+    </div>
     </>
   )
 }
