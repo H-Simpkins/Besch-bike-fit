@@ -1,35 +1,35 @@
-import logo from '../public/logo.png'
-import './App.css'
+import logo from "./assets/logo.png";
+import "./App.css";
+import { Link, Route, Routes } from "react-router-dom";
+import { About } from "./About";
+import { Services } from "./Services";
+import { Home } from "./Home";
+import { Contact } from "./Contact";
 
 function App() {
-
   return (
     <>
-    <header>
-      <img src={logo} className="logo" alt="logo" />
-      <div className="nav-bar">
-        <button className="nav-btn">Home</button>
-        <button className="nav-btn">About Us</button>
-        <button className="nav-btn">Services</button>
-        <button className="nav-btn">Contact Us</button>
-      </div>
-    </header>
-    <div className="background-img">
-    <body className="body">
-      <div className="hero">
-        <div className="motto">
-          <h1 className= "lineOne">The trails are calling,</h1> 
-          <h1 className="lineTwo">Be ready for them.</h1>
-          <button className="schedule-btn">Schedule Now!</button>
-        </div>
-        <div className="hero-img-container">
-          <img className="hero-img" src="https://images.unsplash.com/photo-1613444129079-b7862af832ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"/>
-        </div>
-      </div>
-    </body>
-    </div>
+      <header>
+        <img src={logo} className="logo" alt="logo" />
+        <nav className="nav-bar">
+          <Link to="/" className="nav-btn">
+            Home
+          </Link>
+          <Link to="/About" className="nav-btn">
+            About
+          </Link>
+          <Link to="/Services" className="nav-btn">Services</Link>
+          <Link to="/Contact" className="nav-btn">Contact Us</Link>
+        </nav>
+      </header>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Services" element={<Services />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
