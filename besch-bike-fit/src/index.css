@@ -4,6 +4,10 @@ header {
   background-color: beige;
 }
 
+a {
+  text-decoration: none;
+}
+
 .body {
   width: 73%;
   display: flex;
@@ -22,15 +26,18 @@ header {
   justify-content: space-around;
   align-self: end;
   background-color: #73a24e;
+  height: 60px;
 }
 
 .nav-btn {
   font-size: 2rem;
-  border: none;
+  color: beige;
+  
+  /* border: none;
   background-color: beige;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-radius: 10px;
+  border-radius: 10px; */
 }
 
 .schedule-btn {
