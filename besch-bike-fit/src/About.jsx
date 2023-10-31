@@ -1,11 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
+import finishline from "./assets/finishline.jpg";
 
 export function About() {
   return (
     <>
       <div className="background-img">
-        <body className="body">
+        <body className="body about">
           <h1>About Me</h1>
+          <img src={finishline} style={{height:"600px"}}/>
           <p>
             Growing up, my bicycle was my firrst ticket to freedom. From riding
             around town with friends to racing dirt track BMX, you could always
