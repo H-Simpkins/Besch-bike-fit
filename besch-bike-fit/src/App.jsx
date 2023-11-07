@@ -3,7 +3,7 @@ import peaks from "./assets/layered-peaks-haikei.svg";
 import "./App.css";
 import { Link, Route, Routes } from "react-router-dom";
 import { About } from "./About";
-import { Services } from "./Services";
+import { Services } from "./services/Services";
 import { Home } from "./Home";
 import { Contact } from "./Contact";
 import { Instagram } from "lucide-react";
