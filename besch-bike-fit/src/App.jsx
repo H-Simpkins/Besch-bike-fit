@@ -2,10 +2,10 @@ import logo from "./assets/logo.png";
 import peaks from "./assets/layered-peaks-haikei.svg";
 import "./App.css";
 import { Link, Route, Routes } from "react-router-dom";
-import { About } from "./About";
+import { About } from "./about/About";
 import { Services } from "./services/Services";
-import { Home } from "./Home";
-import { Contact } from "./Contact";
+import { Home } from "./home/Home";
+import { Contact } from "./contact/Contact";
 import { Instagram } from "lucide-react";
 
 function App() {
@@ -14,7 +14,10 @@ function App() {
       <header>
         <img src={logo} className="logo" alt="logo" />
         <div className="header-container">
-          <img src={peaks} className="header-img" alt="peaks" />
+          <div className="motto">
+            <h1>Besch Bike Fit</h1>
+          </div>
+          {/* <img src={peaks} className="header-img" alt="peaks" /> */}
           <nav className="nav-wrapper">
             <div className="main-nav">
               <Link to="/" className="nav-btn">

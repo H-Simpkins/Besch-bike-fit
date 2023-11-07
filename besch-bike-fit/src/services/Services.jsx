@@ -5,7 +5,6 @@ export function Services() {
     <>
       <div className="background-img">
         <body className="body">
-          <h1 className="service">Services</h1>
           <p className="service-description">
             All fit services are deesigned to be mobile and performed in your
             home or training location. No travel charge is applied within 20
