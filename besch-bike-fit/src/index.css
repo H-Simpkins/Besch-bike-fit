@@ -24,7 +24,6 @@ a {
   margin: auto;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
   z-index: 1;
   /* background-color: white; */
 }
@@ -33,6 +32,14 @@ a {
   flex-grow: 2;
   display: flex;
   flex-direction: column;
+}
+
+.motto {
+  height: 200px;
+  padding-left: 100px;
+  color: beige;
+  background-color: #5f9555;
+  font-size: 3rem;
 }
 
 .nav-wrapper {
@@ -61,11 +68,6 @@ a {
   font-size: 2rem;
   color: beige;
   margin: auto 16px;
-  /* border: none;
-  background-color: beige;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 10px; */
 }
 
 .nav-socials {
@@ -84,41 +86,8 @@ a {
   color: beige;
 }
 
-.schedule-btn {
-  background-color: forestgreen;
-  border: none;
-  color: white;
-  font-size: 1.5rem;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.schedule-btn:hover {
-  transition: 1s;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
 button:hover {
   cursor: pointer;
-}
-
-.hero-words {
-  font-size: 1.5rem;
-  border: 1px solid black;
-}
-
-.about {
-  font-size: 24px;
-}
-
-.lineOne {
-  padding-bottom: 0px;
-}
-
-.lineTwo {
-  padding-top: 0px;
-  padding-left: 100px;
 }
 
 .logo {
