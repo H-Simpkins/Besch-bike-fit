@@ -24,8 +24,6 @@ a {
   margin: auto;
   align-items: center;
   justify-content: center;
-  z-index: 1;
-  /* background-color: white; */
 }
 
 .header-container {
@@ -34,7 +32,7 @@ a {
   flex-direction: column;
 }
 
-.motto {
+.title {
   height: 200px;
   padding-left: 100px;
   color: beige;

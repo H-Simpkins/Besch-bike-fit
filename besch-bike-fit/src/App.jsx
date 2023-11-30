@@ -1,5 +1,4 @@
 import logo from "./assets/logo.png";
-import peaks from "./assets/layered-peaks-haikei.svg";
 import "./App.css";
 import { Link, Route, Routes } from "react-router-dom";
 import { About } from "./about/About";
@@ -14,7 +13,7 @@ function App() {
       <header>
         <img src={logo} className="logo" alt="logo" />
         <div className="header-container">
-          <div className="motto">
+          <div className="title">
             <h1>Besch Bike Fit</h1>
           </div>
           {/* <img src={peaks} className="header-img" alt="peaks" /> */}
