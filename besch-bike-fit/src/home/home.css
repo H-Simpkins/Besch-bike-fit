@@ -1,6 +1,18 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width:  412px;
+}
+
 .hero-words {
-    font-size: 1.5rem;
-    text-align: center;
-    vertical-align: center;
-    padding-top: 300px;
-  }
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.hero-img {
+  width: 100%;
+}

@@ -16,7 +16,6 @@ function App() {
           <div className="title">
             <h1>Besch Bike Fit</h1>
           </div>
-          {/* <img src={peaks} className="header-img" alt="peaks" /> */}
           <nav className="nav-wrapper">
             <div className="main-nav">
               <Link to="/" className="nav-btn">
