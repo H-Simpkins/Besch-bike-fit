@@ -6,10 +6,10 @@ export function About() {
   return (
     <>
       <div className="background-img">
-        <body className="body">
+        <body className="about-body">
           <h1 className="about">About Me</h1>
           <div className="about-container">
-          <img src={finishline} style={{height:"600px"}}/>
+          <img src={finishline} className="about-img"/>
           <div className="about-words">
           <p className="about-p">
             Growing up, my bicycle was my first ticket to freedom. From riding
