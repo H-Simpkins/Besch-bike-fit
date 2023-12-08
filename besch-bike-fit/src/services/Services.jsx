@@ -4,31 +4,35 @@ export function Services() {
   return (
     <>
       <div className="background-img">
-        <body className="body">
+        <body className="service-body">
+        <h2 className="service-title">SERVICES</h2>
           <p className="service-description">
             All fit services are deesigned to be mobile and performed in your
             home or training location. No travel charge is applied within 20
             miles of downtown St. Paul and a $1 per mile fee is added for travel
             beyond this 20 mile radius.
           </p>
-          <h2 className="service-title">Bike Services</h2>
+          <hr className="hr-service"/>
           <h3 className="service-subtitle">Peloton/Stationary Trainer Fit: $125</h3>
           <p className="service-description">
             Designed for optimization of home trainer set-up to ensure pain-free
             miles year round
           </p>
+          <hr className="hr-service"/>
           <h3 className="service-subtitle">Entry Level Bike Fit: $100</h3>
           <p className="service-description">
             Ideal service for those riding bikes with flat pedals who are hoping
             to increase comfort and performance for leisurely rides, commutes,
             etc.
           </p>
+          <hr className="hr-service"/>
           <h3 className="service-subtitle">Basic Bike Fit: $200</h3>
           <p className="service-description">
             Full mobility asssessment andd bike fit to help you advance to the
             next level wheter your goal is performance, endurance, or comfort.
             Expect this to take at least 90 minutes to perform.
           </p>
+          <hr className="hr-service"/>
           <h3 className="service-subtitle">Advanced Bike Fit: $300</h3>
           <p className="service-description"> 
             This service is for experienced cyclists who are currently
@@ -38,6 +42,7 @@ export function Services() {
             as a cyclist. Expect this service to take at least 2 hours to
             perform.
           </p>
+          <hr className="hr-service"/>
         </body>
       </div>
     </>

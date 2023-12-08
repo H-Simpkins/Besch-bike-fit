@@ -5,7 +5,7 @@ import { About } from "./about/About";
 import { Services } from "./services/Services";
 import { Home } from "./home/Home";
 import { Contact } from "./contact/Contact";
-import { Instagram } from "lucide-react";
+import { Instagram, Facebook } from "lucide-react";
 
 function App() {
   return (
@@ -28,17 +28,24 @@ function App() {
                 Services
               </Link>
               <Link to="/Contact" className="nav-btn">
-                Contact Us
+                Contact
               </Link>
             </div>
             <div className="nav-socials">
-              <span className="nav-social-words">Follow me:</span>
-              <a
-                className="instagram"
-                href="https://www.instagram.com/beschbikefit/"
-              >
-                <Instagram />
-              </a>
+              <div className="social-container">
+                <a
+                  className="instagram"
+                  href="https://www.instagram.com/beschbikefit/"
+                >
+                  <Instagram />
+                </a>
+                <a
+                  className="facebook"
+                  href="https://www.facebook.com/profile.php?id=61553192777476"
+                >
+                  <Facebook />
+                </a>
+              </div>
             </div>
           </nav>
         </div>

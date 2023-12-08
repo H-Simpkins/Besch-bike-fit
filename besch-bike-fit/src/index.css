@@ -17,6 +17,11 @@ header {
   width: 100%;
 }
 
+.background-img {
+  width: 100%;
+  height: 100%;
+}
+
 .logo {
   width: 250px;
   height: 250px;
@@ -37,6 +42,7 @@ header {
   background-color: #5f9555;
   color: beige;
   width: 100%;
+  padding: 20px 0px;
 }
 
 .main-nav {
@@ -47,14 +53,28 @@ header {
 
 .nav-socials {
   display: flex;
-  flex-direction: column;
 }
 
+.social-container {
+  display: flex;
+}
+
+
 .instagram {
+  color: beige;
+}
+
+.facebook {
   color: beige;
 }
 
 .nav-btn {
   color: beige;
   text-decoration: none;
+}
+
+hr {
+  background: forestgreen;
+  width: 80%;
+  margin-bottom: 10px;
 }
