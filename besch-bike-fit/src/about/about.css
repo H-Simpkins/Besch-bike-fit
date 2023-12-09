@@ -6,8 +6,9 @@
 }
 
 .about {
+    font-family: 'Norwester';
     padding: 5%;
-    font-size: 3rem;
+    font-size: 4rem;
     color: #395934;
 }
 
@@ -24,6 +25,7 @@
 }
 
 .about-p-emphasis {
+    font-family: 'kollektif regular';
     color: #5f9555;
     font-size: 1.5rem;
     text-align: center;
