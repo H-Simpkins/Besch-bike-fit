@@ -2,14 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: beige;
+    background-color: #e1d9cc;
 }
 
 .about {
     font-family: 'Norwester';
     padding: 5%;
     font-size: 4rem;
-    color: #395934;
+    color: #863527;
 }
 
 .about-container {
@@ -26,7 +26,7 @@
 
 .about-p-emphasis {
     font-family: 'kollektif regular';
-    color: #5f9555;
+    color: #294026;
     font-size: 1.5rem;
     text-align: center;
     padding-bottom: 20px;
@@ -44,5 +44,6 @@
     font-size: 1.25rem;
     padding-bottom: 2rem;
     text-align: center;
-    color: #5f9555;
+    color: #294026;
 }
+
