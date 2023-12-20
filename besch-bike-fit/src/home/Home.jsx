@@ -1,5 +1,4 @@
-import { ImageSlider } from "../ImageSlider";
-import lake from "../assets/lake.jpg"
+import home from "../assets/home.jpg"
 import "./home.css";
 
 export function Home() {
@@ -8,12 +7,14 @@ export function Home() {
       <div
         className="hero"
       >
-        <span className="hero-words">
-          At-home bike fitting and Physical Therapy services to help you get the
-          most out of your cycling experience.
-        </span>
-        <img className="hero-img" src={lake} />
-        {/* <ImageSlider className="hero-img"/> */}
+        <img className="hero-img" src={home} />
+        <div className="hero-words">
+            <span>Cycling</span>
+            <span>Wellnes</span>
+            <span>Adventure</span>
+        </div>
+        <button className="contact-button">Work with me</button>
+        <span className="hero-words slogan">At-home bike fitting and Physical Therapy Services to help you get the most out of you cycling experience.</span>
       </div>
     </body>
   );

@@ -8,13 +8,40 @@
 }
 
 .hero-words {
+  display: flex;
+  flex-direction: column;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 1.8rem;
+  font-family: 'kollektif regular';
+  color: #294026; 
+}
+
+.slogan {
+  padding: 20px 10px;
 }
 
 .hero-img {
-  width: 100%;
+  border-radius: 15px;
+  width: 90%;
+  padding-top: 25px;
 }
+
+.contact-button {
+  text-decoration: none;
+  border: #294026 solid 1px;
+  border-radius: 15rem;
+  background-color: #e1d9cc;
+  font-size: 1.5rem;
+  padding: 15px;
+  transition: all 400ms;
+  transition-timing-function: ease-in-out;
+}
+
+.contact-button:hover {
+  background-color: #294026;
+  color: #e1d9cc;
+}
+

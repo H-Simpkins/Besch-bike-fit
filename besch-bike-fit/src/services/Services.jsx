@@ -7,7 +7,7 @@ export function Services() {
         <body className="service-body">
         <h2 className="service-title">SERVICES</h2>
           <p className="service-description">
-            All fit services are deesigned to be mobile and performed in your
+            All fit services are designed to be mobile and performed in your
             home or training location. No travel charge is applied within 20
             miles of downtown St. Paul and a $1 per mile fee is added for travel
             beyond this 20 mile radius.
