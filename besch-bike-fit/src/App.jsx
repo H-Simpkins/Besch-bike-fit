@@ -11,11 +11,13 @@ function App() {
   return (
     <>
       <header>
+        <div className="main">
         <img src={logo} className="logo" alt="logo" />
-        <div className="header-container">
-          <div className="title">
+        <div className="title">
             <h1>Besch Bike Fit</h1>
           </div>
+        </div>  
+        <div className="header-container">
           <nav className="nav-wrapper">
             <div className="main-nav">
               <Link to="/" className="nav-btn">

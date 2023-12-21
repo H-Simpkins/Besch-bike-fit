@@ -80,3 +80,33 @@ hr {
   width: 80%;
   margin-bottom: 10px;
 }
+
+@media screen and (min-width: 1024px) {
+  .main {
+    width: 100%;
+    display: flex;
+    align-items: end;
+  }
+
+  .title {
+    visibility: visible;
+    font-size: 3rem;
+    color:#e1d9cc;
+    background-color:#863527;
+    border-top-left-radius: 10px;
+    padding-left: 10px;
+    flex-grow: 2;
+  }
+
+  .nav-btn {
+    font-size: 2rem;
+  }
+
+  .social-container {
+    padding-right: 22px;
+  }
+
+  .instagram {
+    padding-right: 22px;
+  }
+}

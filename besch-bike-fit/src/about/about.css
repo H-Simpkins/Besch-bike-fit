@@ -6,6 +6,7 @@
 }
 
 .about {
+    text-align: center;
     font-family: 'Norwester';
     padding: 5%;
     font-size: 4rem;
@@ -27,21 +28,25 @@
 .about-p-emphasis {
     font-family: 'kollektif regular';
     color: #294026;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .about-p {
+    font-family: 'kollektif regular';
+    text-align: center;
+    font-size: 1.1rem;
     line-height: 1.5rem;
-    text-indent: 2rem;
     padding-bottom: 1rem;
     padding-right: 10px;
     padding-left: 10px;
 }
 
 .sign-off {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     padding-bottom: 2rem;
     text-align: center;
     color: #294026;

@@ -4,7 +4,7 @@
   align-items: center;
   flex-wrap: wrap;
   background-color: #e1d9cc;
-  width:  412px;
+  width:  100%;
 }
 
 .hero-words {
@@ -14,13 +14,16 @@
   padding-bottom: 50px;
   text-align: center;
   font-size: 1.5rem;
-  line-height: 1.8rem;
+  line-height: 2rem;
   font-family: 'kollektif regular';
   color: #294026; 
 }
 
 .slogan {
   padding: 20px 10px;
+  color:#e1d9cc;
+  background-color: #863527;
+  margin-bottom: 25px;
 }
 
 .hero-img {
@@ -38,6 +41,7 @@
   padding: 15px;
   transition: all 400ms;
   transition-timing-function: ease-in-out;
+  margin-bottom: 50px;
 }
 
 .contact-button:hover {
@@ -45,3 +49,5 @@
   color: #e1d9cc;
 }
 
+@media screen and (min-width: 1024px) {
+}

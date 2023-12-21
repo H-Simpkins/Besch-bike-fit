@@ -26,6 +26,16 @@
     padding: 3%;
 }
 
-.phone {
-    padding-bottom: 20px;
+.contact {
+    color: #863527;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.email-title {
+    margin-top: 25px;
+}
+
+.phone-title {
+    padding-bottom: 100px;
 }
