@@ -8,6 +8,7 @@ export function Home() {
         className="hero"
       >
         <img className="hero-img" src={home} />
+        <div className="screen-size">
         <div className="hero-words">
             <span>CYCLING</span>
             <span>WELLNESS</span>
@@ -15,6 +16,7 @@ export function Home() {
         </div>
         <button className="contact-button">Work with me</button>
         <span className="hero-words slogan">At-home bike fitting and Physical Therapy Services to help you get the most out of you cycling experience.</span>
+        </div>
       </div>
     </body>
   );
