@@ -4,33 +4,39 @@ export function Services() {
   return (
     <>
       <div className="background-img">
-        <body className="body">
+        <body className="service-body">
+          <h2 className="service-title">SERVICES</h2>
           <p className="service-description">
-            All fit services are deesigned to be mobile and performed in your
+            All fit services are designed to be mobile and performed in your
             home or training location. No travel charge is applied within 20
             miles of downtown St. Paul and a $1 per mile fee is added for travel
             beyond this 20 mile radius.
           </p>
-          <h2 className="service-title">Bike Services</h2>
-          <h3 className="service-subtitle">Peloton/Stationary Trainer Fit: $125</h3>
+          <hr className="hr-service" />
+          <h3 className="service-subtitle">
+            PELOTON/STATIONARY BIKE FIT: $125
+          </h3>
           <p className="service-description">
             Designed for optimization of home trainer set-up to ensure pain-free
             miles year round
           </p>
-          <h3 className="service-subtitle">Entry Level Bike Fit: $100</h3>
+          <hr className="hr-service" />
+          <h3 className="service-subtitle">ENTRY LEVEL BIKE FIT: $100</h3>
           <p className="service-description">
             Ideal service for those riding bikes with flat pedals who are hoping
             to increase comfort and performance for leisurely rides, commutes,
             etc.
           </p>
-          <h3 className="service-subtitle">Basic Bike Fit: $200</h3>
+          <hr className="hr-service" />
+          <h3 className="service-subtitle">BASIC BIKE FIT: $200</h3>
           <p className="service-description">
             Full mobility asssessment andd bike fit to help you advance to the
             next level wheter your goal is performance, endurance, or comfort.
             Expect this to take at least 90 minutes to perform.
           </p>
-          <h3 className="service-subtitle">Advanced Bike Fit: $300</h3>
-          <p className="service-description"> 
+          <hr className="hr-service" />
+          <h3 className="service-subtitle">ADVANCED BIKE FIT: $300</h3>
+          <p className="service-description">
             This service is for experienced cyclists who are currently
             struggling with any pain or discomfort while cycling. In addition to
             fitting, this service inculdes recommendations and guidance
@@ -38,6 +44,27 @@ export function Services() {
             as a cyclist. Expect this service to take at least 2 hours to
             perform.
           </p>
+          <hr className="hr-service" />
+          <h3 className="service-subtitle">
+            PHYSICAL THERAPY EVALUATION: $200
+          </h3>
+          <p className="service-description">
+            A complete examination and evaluation to understand the nature and
+            source of your impairment. Following the evaluation, a treatment
+            plan will be provided as well as action steps for client to follow
+            to begin treating the issue immediately.
+          </p>
+          <hr className="hr-service" />
+          <h3 className="service-subtitle">
+            PHYSICAL THERAPY TREATMENT SESSION: $100
+          </h3>
+          <p className="service-description">
+            Follow-up treatments scheduled as needed to ensure that you are
+            progressing and seeing desired improvement following initial
+            evaluation. Frequency and duration of treatment determined in
+            partnership between Physical Therapist and client.
+          </p>
+          <hr className="hr-service" />
         </body>
       </div>
     </>
