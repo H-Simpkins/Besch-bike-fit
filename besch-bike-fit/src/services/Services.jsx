@@ -31,7 +31,7 @@ export function Services() {
           <h3 className="service-subtitle">BASIC BIKE FIT: $200</h3>
           <p className="service-description">
             Full mobility asssessment andd bike fit to help you advance to the
-            next level wheter your goal is performance, endurance, or comfort.
+            next level whether your goal is performance, endurance, or comfort.
             Expect this to take at least 90 minutes to perform.
           </p>
           <hr className="hr-service" />
