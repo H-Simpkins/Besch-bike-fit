@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   flex-wrap: wrap;
   background-color: #e1d9cc;
   width:  100%;
@@ -35,6 +36,7 @@
 .contact-button {
   text-decoration: none;
   border: #294026 solid 1px;
+  color:#294026;
   border-radius: 15rem;
   background-color: #e1d9cc;
   font-size: 1.5rem;

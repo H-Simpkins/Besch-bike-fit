@@ -52,3 +52,14 @@
     color: #294026;
 }
 
+@media screen and (min-width: 1024px) {
+    .about-container {
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .about-words {
+        width: 40%;
+    }
+    
+}

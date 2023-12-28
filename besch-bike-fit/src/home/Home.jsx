@@ -14,7 +14,9 @@ export function Home() {
             <span>WELLNESS</span>
             <span>ADVENTURE</span>
         </div>
+        <div className="button-container">
         <button className="contact-button">Work with me</button>
+        </div>
         <span className="hero-words slogan">At-home bike fitting and Physical Therapy Services to help you get the most out of you cycling experience.</span>
         </div>
       </div>
