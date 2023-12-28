@@ -1,8 +1,11 @@
+import { Link, Route, Routes } from "react-router-dom";
 import home from "../assets/home.jpg"
+import { Contact } from "../contact/Contact";
 import "./home.css";
 
 export function Home() {
   return (
+    <>
     <body className="body">
       <div
         className="hero"
@@ -15,11 +18,15 @@ export function Home() {
             <span>ADVENTURE</span>
         </div>
         <div className="button-container">
-        <button className="contact-button">Work with me</button>
+        <Link to="/Contact" className="contact-button">Work with me</Link>
         </div>
         <span className="hero-words slogan">At-home bike fitting and Physical Therapy Services to help you get the most out of you cycling experience.</span>
         </div>
       </div>
     </body>
+    <Routes>
+      <Route path="/Contact" element={<Contact />} />
+    </Routes>
+    </>
   );
 }

@@ -25,6 +25,7 @@
   color:#e1d9cc;
   background-color: #863527;
   margin-bottom: 25px;
+  margin-top: 100px;
 }
 
 .hero-img {
@@ -43,7 +44,6 @@
   padding: 15px;
   transition: all 400ms;
   transition-timing-function: ease-in-out;
-  margin-bottom: 50px;
 }
 
 .contact-button:hover {
