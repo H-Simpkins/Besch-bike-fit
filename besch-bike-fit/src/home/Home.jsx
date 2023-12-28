@@ -20,7 +20,7 @@ export function Home() {
         <div className="button-container">
         <Link to="/Contact" className="contact-button">Work with me</Link>
         </div>
-        <span className="hero-words slogan">At-home bike fitting and Physical Therapy Services to help you get the most out of you cycling experience.</span>
+        <span className="hero-words slogan">At-home bike fitting and Physical Therapy Services to help you get the most out of your cycling experience.</span>
         </div>
       </div>
     </body>
