@@ -21,15 +21,15 @@ export function About() {
                 Northwestern’s Feinberg School of Medicine to obtain my
                 Doctorate in Physical Therapy. During this time of my life I put
                 countless miles on my single speed commuter. Upon returning home
-                to Minnesota I returned to cycling for pure joy the sport when I
+                to Minnesota I returned to cycling for the pure joy of the sport when I
                 discovered mountain biking. Since then I have found myself
                 becoming more and more fascinated with all aspects of cycling
                 and have competed in gravel racing and criterium racing.
               </p>
               <p className="about-p">
                 As a Physical Therapist I have spent a majority of my career
-                working in the Emergency Department at two different University
-                Hospitals in major metropolitan areas. In this setting I assess
+                working in the Emergency Department at two different university
+                hospitals in major metropolitan areas. In this setting I assess
                 and treat acute musculoskeletal injuries and vestibular
                 impairments. When I’m not in the Emergency Department I also
                 spend a large amount of time in the Intensive Care Unit working

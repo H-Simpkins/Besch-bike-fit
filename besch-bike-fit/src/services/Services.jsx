@@ -18,7 +18,7 @@ export function Services() {
           </h3>
           <p className="service-description">
             Designed for optimization of home trainer set-up to ensure pain-free
-            miles year round
+            miles year round.
           </p>
           <hr className="hr-service" />
           <h3 className="service-subtitle">ENTRY LEVEL BIKE FIT: $100</h3>
@@ -30,18 +30,18 @@ export function Services() {
           <hr className="hr-service" />
           <h3 className="service-subtitle">BASIC BIKE FIT: $200</h3>
           <p className="service-description">
-            Full mobility asssessment andd bike fit to help you advance to the
+            Full mobility assessment and bike fit to help you advance to the
             next level wheter your goal is performance, endurance, or comfort.
             Expect this to take at least 90 minutes to perform.
           </p>
           <hr className="hr-service" />
-          <h3 className="service-subtitle">ADVANCED BIKE FIT: $300</h3>
+          <h3 className="service-subtitle">ADVANCED BIKE FIT: $400</h3>
           <p className="service-description">
             This service is for experienced cyclists who are currently
             struggling with any pain or discomfort while cycling. In addition to
-            fitting, this service inculdes recommendations and guidance
+            fitting and Physical Therapy diagnostic exam, this service inculdes recommendations and guidance
             regarding any bike modifications which will enhance your experience
-            as a cyclist. Expect this service to take at least 2 hours to
+            as a cyclist. Expect this service to take at least 3 hours to
             perform.
           </p>
           <hr className="hr-service" />
