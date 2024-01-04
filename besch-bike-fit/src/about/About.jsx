@@ -45,7 +45,7 @@ export function About() {
                 Ben Besch, PT, DPT, ICE Certified Professional Bike Fitter
               </h3>
             </div>
-            <img src={about} className="about-img" />
+            <img src={about} alt="Person looking at camera with their bike" className="about-img" />
           </div>
         </body>
       </div>

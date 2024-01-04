@@ -10,7 +10,7 @@ export function Home() {
       <div
         className="hero"
       >
-        <img className="hero-img" src={home} />
+        <img className="hero-img" alt="Person on road bike on trail" src={home} />
         <div className="screen-size">
         <div className="hero-words">
             <span>CYCLING</span>
